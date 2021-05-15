@@ -5,15 +5,15 @@
 
 }
 .button-style {
-    background-color: black;
+    background-color: rgb(234, 0, 41);
     color: #fff;
 }
 .button-style:hover {
-    background-color: black;
+    background-color: rgb(234, 0, 41);
     color: #fff;
 }
 .button-style:focus {
-    background-color: black;
+    background-color: rgb(234, 0, 41);
     color: #fff;
 }
 .box {
@@ -22,15 +22,15 @@
     justify-content: center;
     width: 90px;
     height: 90px;
-    background-color: black;
+    background-color: white;
+    border: 3px solid rgb(234, 0, 41);
     margin: 20px 20px;
-    color: #fff;
+    color: rgb(234, 0, 41);
     cursor: pointer;
+    border-radius: 10px;    
+    font-size: 30px;
 }
-.box:hover {
-    background: rgb(101, 230, 101);
-    color: black;
-}
+
 .box-container {
     display: grid;
     grid-template-columns: repeat(13, 8%);
@@ -51,9 +51,10 @@
     justify-content: center;
     width: 40px;
     height: 40px;
-    background: rgb(101, 230, 101);
+    background: rgb(234, 0, 41);
     color: #fff;
     margin-right: 20px;
+    border-radius: 40px;
 }
 .choose-title{
     display: none;

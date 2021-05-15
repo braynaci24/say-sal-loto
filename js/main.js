@@ -62,7 +62,7 @@ $(document).ready(function () {
             $('.choose').append(` <div class="choose-top">
         ${boxText}
         </div>`);
-            $(this).css('background', 'rgb(161, 161, 161)', 'color', '#fff');
+            $(this).css('background', 'rgb(234, 0, 41)').css('color','white');
         }
     })
 })
