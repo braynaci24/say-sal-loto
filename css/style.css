@@ -1,0 +1,72 @@
+.button-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.button-style {
+    background-color: black;
+    color: #fff;
+}
+.button-style:hover {
+    background-color: black;
+    color: #fff;
+}
+.button-style:focus {
+    background-color: black;
+    color: #fff;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    margin: 20px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.box:hover {
+    background: rgb(101, 230, 101);
+    color: black;
+}
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(13, 8%);
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.choose {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-items: center;
+}
+.choose-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgb(101, 230, 101);
+    color: #fff;
+    margin-right: 20px;
+}
+.choose-title{
+    display: none;
+}
+.start {
+    display: none;
+}
+.numbers{
+    color: blue;
+}
+.random-number {
+    color: rgb(27, 219, 27);
+}
+.replay {
+    display: none;
+}
